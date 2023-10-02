@@ -8,10 +8,20 @@
     }
 }
 
-
 /* 
     RESPONSIVE FOR SECOND BLOCK WITH MAN`S PHOTO
 */
+
+@media screen and (max-width: 1490px) {
+    .name-and-surname {
+        width: 84%;
+        left: 8%;
+    }
+    .name-and-surname h4,
+    .name-and-surname h3 {
+        font-size: 95px;
+    }
+}
 
 @media screen and (max-width: 1280px) {
     .name-and-surname {
