@@ -37,14 +37,65 @@
         height: 561px;
         margin-top: 40px;
     }
+    .name-and-surname h3 {
+        font-size: 80px;
+    }
+    .name-and-surname h4 {
+        font-size: 80px;
+    }
+    .second-section__left-side h3,
+    .second-section__rigth-side h3 {
+        font-size: 19px;
+    }
+    .second-section__left-side p,
+    .second-section__rigth-side p {
+        font-size: 19px;
+    }
 }
 
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 1040px) {
     .name-and-surname h3 {
         font-size: 65px;
     }
     .name-and-surname h4 {
         font-size: 65px;
+    }
+    .second-section__rigth-side h3 {
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .second-section__left-side h3 {
+        font-size: 17px;
+    }
+    .second-section__rigth-side p {
+        font-size: 17px;
+    }
+    .second-section__left-side p {
+        font-size: 17px;
+    }
+    .command-on {
+        font-size: 22px;
+    }
+    .working-experience {
+        font-size: 22px;
+    }
+    .skills-in {
+        font-size: 22px;
+    }
+    .experience-block p {
+        font-size: 22px;
+    }
+    .experience-block h3 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .name-and-surname h3 {
+        font-size: 50px;
+    }
+    .name-and-surname h4 {
+        font-size: 50px;
     }
     .name-and-surname {
         padding-top: 120px;
@@ -71,10 +122,10 @@
 
 @media screen and (max-width: 722px) {
     .name-and-surname h3 {
-        font-size: 65px;
+        font-size: 44px;
     }
     .name-and-surname h4 {
-        font-size: 65px;
+        font-size: 44px;
     }
     .working-experience {
         font-size: 19px;
@@ -102,31 +153,6 @@
     .name-and-surname h4 {
         font-size: 40px;
     }
-    .name-and-surname {
-        padding-top: 170px;
-    }
-    .name-and-surname {
-        padding-top: 20px;
-    }
-    .who-I-am {
-        top: 100px;
-        bottom: unset;
-    }
-    .second-section__rigth-side {
-        max-width: 180px;
-    }
-    .second-section__rigth-side p,
-    .second-section__left-side p {
-        font-size: 14px;
-        margin-top: 10px;
-    }
-    .second-section__rigth-side h3,
-    .second-section__left-side h3 {
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 500px) {
     .name-and-surname {
         padding-top: 25px;
     }
@@ -156,12 +182,40 @@
         width: 90%;
         left: 5%;
     }
+    .second-section__rigth-side {
+        max-width: 180px;
+    }
+    .second-section__rigth-side p,
+    .second-section__left-side p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .second-section__rigth-side h3,
+    .second-section__left-side h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
     .experience-block p {
         font-size: 18px;
         margin-left: 18px;
     }
     .experience-block h3 {
         font-size: 50px;
+    }
+    .working-experience {
+        font-size: 17px;
+    }
+    .experience-block h3 {
+        font-size: 45px;
+    }
+    .experience-block p {
+        font-size: 16px;
+        margin-left: 17px;
+    }
+    .command-on, .skills-in {
+        font-size: 15px;
     }
 }
 
