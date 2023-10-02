@@ -22,3 +22,15 @@ function closeOverlayForBurger() {
 
     $(".burger-menu").removeClass("active");
 }
+
+//Function for open View all
+
+function openViewAll() {
+    $(".view_btn-img").addClass('active');
+     $(".view_all").css({ "display": "block" });
+}
+
+function closeViewAll() {
+    $(".view_btn-img.active").removeClass('active');
+    $(".view_all").css({ "display": "none" });
+}
