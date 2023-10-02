@@ -1,0 +1,166 @@
+/* 
+    RESPONSIVE FOR HEADER
+*/
+
+@media screen and (max-width: 768px) {
+    .nav_block {
+        display: none;
+    }
+}
+
+
+/* 
+    RESPONSIVE FOR SECOND BLOCK WITH MAN`S PHOTO
+*/
+
+@media screen and (max-width: 1280px) {
+    .name-and-surname {
+        width: 96%;
+        left: 2%;
+    }
+    .name-and-surname h3 {
+        font-size: 90px;
+    }
+    .name-and-surname h4 {
+        font-size: 90px;
+    }
+    .who-I-am {
+        width: 96%;
+        left: 2%;
+    }
+}
+
+@media screen and (max-width: 1127px) {
+    .photo-with-man {
+        left: calc(50% - 212px);
+        width: 424px;
+        height: 561px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .name-and-surname h3 {
+        font-size: 65px;
+    }
+    .name-and-surname h4 {
+        font-size: 65px;
+    }
+    .name-and-surname {
+        padding-top: 120px;
+    }
+    .second-section__left-side h3 {
+        font-size: 18px;
+    }
+    .second-section__rigth-side h3 {
+        font-size: 18px;
+    }
+    .second-section__rigth-side p {
+        font-size: 16px;
+    }
+    .second-section__left-side p {
+        font-size: 16px;
+    }
+    .second-section__rigth-side {
+        max-width: 210px;
+    }
+    .second-section__left-side {
+        max-width: 148px;
+    }
+}
+
+@media screen and (max-width: 722px) {
+    .name-and-surname h3 {
+        font-size: 65px;
+    }
+    .name-and-surname h4 {
+        font-size: 65px;
+    }
+    .working-experience {
+        font-size: 19px;
+    }
+    .skills__block-all-skills h2 {
+        font-size: 15px;
+    }
+    .command-on,
+    .skills-in {
+        font-size: 17px;
+    }
+    .experience-block p {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .experience-block h3 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 674px) {
+    .name-and-surname h3 {
+        font-size: 40px;
+    }
+    .name-and-surname h4 {
+        font-size: 40px;
+    }
+    .name-and-surname {
+        padding-top: 170px;
+    }
+    .name-and-surname {
+        padding-top: 20px;
+    }
+    .who-I-am {
+        top: 100px;
+        bottom: unset;
+    }
+    .second-section__rigth-side {
+        max-width: 180px;
+    }
+    .second-section__rigth-side p,
+    .second-section__left-side p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .second-section__rigth-side h3,
+    .second-section__left-side h3 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .name-and-surname {
+        padding-top: 25px;
+    }
+    .photo-with-man {
+        left: calc(50% - 150px);
+        width: 300px;
+        height: 415px;
+        margin-top: 198px;
+    }
+    .who-I-am {
+        top: 95px;
+    }
+    .name-and-surname h3 {
+        font-size: 25px;
+    }
+    .name-and-surname h4 {
+        font-size: 25px;
+    }
+    .name-and-surname {
+        width: 80%;
+        left: 10%;
+    }
+    .second-section__rigth-side {
+        text-align: right;
+    }
+    .who-I-am {
+        width: 90%;
+        left: 5%;
+    }
+    .experience-block p {
+        font-size: 18px;
+        margin-left: 18px;
+    }
+    .experience-block h3 {
+        font-size: 50px;
+    }
+}
