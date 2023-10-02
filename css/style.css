@@ -191,3 +191,92 @@ header {
 .second-section__rigth-side {
     max-width: 318px;
 }
+
+
+
+/* =================================
+    SKILLS BLOCK
+   =================================
+*/
+
+.skills-block {
+    width: 100%;
+    min-height: 417px;
+    /* background: rgba(84, 84, 84, 0.46);  I will use this color for modal window */
+    background: #545454;
+    padding-top: 86px;
+    padding-bottom: 40px;
+}
+
+.skills__block-all-skills {
+    display: flex;
+    width: 80%;
+    min-height: 270px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills__block-all-skills h2 {
+    color: #F26B50;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 23px;
+    margin-top: 23px;
+}
+
+.working-experience {
+    color: #FBFBFB;
+    font-size: 26px;
+    font-weight: 400;
+    width: 302px;
+    font-family: 'Inter', sans-serif;
+}
+
+.working-experience p {
+    line-height: 171.523%;
+}
+
+.command-on {
+    width: 302px;
+    color: #FBFBFB;
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.skills__block-all-skills ul {
+    list-style-type: none;
+    line-height: 171.523%;
+}
+
+.skills-in {
+    color: #FBFBFB;
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.experience-block {
+    margin: 32px 0px 0px 10%;
+    display: flex;
+    align-items: center;
+}
+
+.experience-block h3 {
+    color: #F26B50;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.experience-block p {
+    max-width: 148px;
+    color: #FBFBFB;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 25px;
+}

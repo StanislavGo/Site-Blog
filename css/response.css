@@ -76,6 +76,23 @@
     .name-and-surname h4 {
         font-size: 65px;
     }
+    .working-experience {
+        font-size: 19px;
+    }
+    .skills__block-all-skills h2 {
+        font-size: 15px;
+    }
+    .command-on,
+    .skills-in {
+        font-size: 17px;
+    }
+    .experience-block p {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .experience-block h3 {
+        font-size: 60px;
+    }
 }
 
 @media screen and (max-width: 674px) {
@@ -138,5 +155,12 @@
     .who-I-am {
         width: 90%;
         left: 5%;
+    }
+    .experience-block p {
+        font-size: 18px;
+        margin-left: 18px;
+    }
+    .experience-block h3 {
+        font-size: 50px;
     }
 }
