@@ -22,6 +22,9 @@ header {
     background: #222222;
     width: 100%;
     min-height: 84px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .header {
@@ -86,4 +89,105 @@ header {
 
 .burger-menu:hover {
     background: url(../img/header/burger-white.svg);
+}
+
+
+/* ============================
+    SECOND WECTION WITH NAME
+   ============================
+*/
+
+.section-with-name {
+    width: 100%;
+    min-height: 561px;
+    background: #222222;
+    position: relative;
+}
+
+.bg-elements {
+    background: url(../img/2section-with-name/bg-elements.png);
+    width: 100%;
+    height: 493px;
+    background-repeat: no-repeat;
+}
+
+.photo-with-man {
+    background: url(../img/2section-with-name/mans-photo.png);
+    left: calc(50% - 240px);
+    width: 479px;
+    height: 619px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.name-and-surname h3 {
+    color: #FBFBFB;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 108px;
+}
+
+.name-and-surname h4 {
+    color: #F26B50;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 108px;
+}
+
+.name-and-surname {
+    display: flex;
+    width: 74%;
+    justify-content: space-between;
+    padding-top: 65px;
+    position: absolute;
+    left: 12%;
+}
+
+.who-I-am {
+    display: flex;
+    width: 90%;
+    position: absolute;
+    min-height: 142px;
+    bottom: 125px;
+    left: 5%;
+    justify-content: space-between;
+}
+
+.second-section__left-side {
+    max-width: 340px;
+}
+
+.second-section__left-side h3 {
+    color: #F26B50;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.second-section__rigth-side h3 {
+    color: #F26B50;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.second-section__left-side p {
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 26px;
+}
+
+.second-section__rigth-side p {
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 26px;
+}
+
+.second-section__rigth-side {
+    max-width: 318px;
 }
