@@ -14,6 +14,7 @@ function openBurgerMenu() {
     }
 }
 
+// CLOSE OVERLAY BY CLICKING ON OVERLAY
 function closeOverlayForBurger() {
     $(".burger-modal-window").css({ "right": "-100%" });
     $("body").css({ "overflow": "auto" });
