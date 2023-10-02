@@ -11,6 +11,40 @@ font-family: 'Inter', sans-serif;
     margin: 0;
 }
 
+html{
+    box-sizing: border-box;
+}
+
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+body{
+    color:  #000;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Yeseva One', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    cursor: pointer;
+    background: transparent;
+}
+
 
 /* ============================
     HEADER
@@ -344,8 +378,96 @@ header {
     padding-top: 120px;
     padding-bottom: 194px;
     color: #d3d2d2;
+    z-index: 1;
+}
+
+.project_slider{
 }
 
 .container{
-    width: 1215;
+    width: 1215px;
 }
+
+.content{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 64px;
+}
+
+.project_title{
+    color: #F26B50;
+    font-family: Sansation;
+    font-size: 42px;
+    font-weight: 700;
+    padding-bottom: 11px;
+}
+
+.prort_title{
+    color: #F26B50;
+    font-family: Sansation;
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 43px;
+}
+
+.project_text{
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 334px;
+    padding-bottom: 55px;
+}
+
+.view_btn{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.viewt_btn-text{
+    padding-top: 23px;
+    color: #F26B50;
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+.view_btn-img{
+    top: 50%;
+    transform:  rotate(0deg);
+}
+
+.project_swiper{
+    width: 878px;
+    overflow: hidden;
+}
+
+.project_item{
+    width: 368px;
+}
+
+.swiper-slide{
+    margin-right: 33px;
+}
+
+.project_item-img{
+    border-radius: 10px;
+    width: 368px;
+    height: 324px;
+}
+
+.project_item-text{
+    width: 350px;
+    color: #FBFBFB;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+
+

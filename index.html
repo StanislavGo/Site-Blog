@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/response.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -99,28 +100,95 @@
         </section>
         <section class="project">
             <div class="container">
-                <h2 class="project_title">
-                    My Projects
-                </h2>
-                <h3 class="prort_title">
-                    Portfolio
-                </h3>
-                <div class="project_text">
-                    <p>
-                        These are my few selected projects where I designed the User interface to build a clickable
-                        prototype.
-                    </p>
-                    <p>
-                        Like what you've seen so far? Then get in touch, and we discuss your ideas together.
-                    </p>
+                <div class="content">
+                    <div class="project_content">
+                        <h2 class="project_title">
+                            My Projects
+                        </h2>
+                        <h3 class="prort_title">
+                            Portfolio
+                        </h3>
+                        <p class="project_text">
+                            These are my few selected projects where I designed the User interface to build a clickable
+                            prototype.
+                        </p>
+                        <p class="project_text">
+                            Like what you've seen so far? Then get in touch, and we discuss your ideas together.
+                        </p>
+                        <div class="view_btn">
+                            <p class="viewt_btn-text">View All</p>
+                            <img class="view_btn-img" src="img/left.svg">
+                        </div>
+                    </div>
+                    <div class="project_slider">
+                        <div class="project_swiper">
+
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="project_item">
+                                        <div class="project_item-info">
+                                            <a href=""><img class="project_item-img" src="img/Mercedes.png"></a>
+                                            <a class="project_item-text" href="">
+                                                <p>
+                                                    Mercedes Website Landing Page. Design & Prototype
+                                                </p>
+                                            </a>
+                                            <div class="view_btn">
+                                                <a href="" class="viewt_btn-text">View</a>
+                                                <a href=""><img src="img/left.svg"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="project_item">
+                                        <div class="project_item-info">
+                                            <a href=""><img class="project_item-img" src="img/Candel.png"></a>
+                                            <a href="" class="project_item-text">
+                                                <p>
+                                                    Sale of Сandles Landing Page. Design & Prototype
+                                                </p>
+                                            </a>
+                                            <div class="view_btn">
+                                                <a href="" class="viewt_btn-text">View</a>
+                                                <a href=""><img src="img/left.svg"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="project_item">
+                                        <div class="project_item-info">
+                                            <a href=""><img class="project_item-img" src="img/Airpods.png"></a>
+                                            <a href="" class="project_item-text">
+                                                <p>
+                                                    Sale of AirPods Max Landing Page. Design & Prototype
+                                                </p>
+                                            </a>
+                                            <div class="view_btn">
+                                                <a href="" class="viewt_btn-text">View</a>
+                                                <a href=""><img src="img/left.svg"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+
+                        </div>
+                    </div>
                 </div>
-                <button class="project_btn">View All</button>
             </div>
         </section>
     </main>
 
     <script src="scripts.js"></script>
     <script src="jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
 </body>
 
 </html>
