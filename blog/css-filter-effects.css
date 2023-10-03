@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #222222;   
+    color: #fff;
+    padding: 0 60px;
+}
+
+.article__main-header {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    color: #F26B50;
+}
+
+.article__main-header-img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.article__title-h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #F26B50;
+}
+
+.article__text {
+    font-size: 18px;
+}
+
+.article__text-italic {
+    font-style: 14px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.article__code code {
+    margin: 0;
+    max-width: 500px;
+}
+
+.list-item-name {
+    color: #F26B50;
+    font-size: 18px;
+}
