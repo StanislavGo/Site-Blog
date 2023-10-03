@@ -12,6 +12,8 @@
     RESPONSIVE FOR SECOND BLOCK WITH MAN`S PHOTO
 */
 
+
+
 @media screen and (max-width: 1490px) {
     .name-and-surname {
         width: 84%;
@@ -37,6 +39,9 @@
     .who-I-am {
         width: 96%;
         left: 2%;
+    }
+    #element4 {
+        left: 75%;
     }
 }
 
