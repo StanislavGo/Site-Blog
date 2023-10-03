@@ -532,6 +532,39 @@ header {
     color: #000;
 }
 
+/* =================================
+    FOOTER
+   =================================
+*/
+
+.footer {  
+  background-color: #222222;
+  padding-bottom: 56px;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer__social-link {
+  transition: 0.3s;
+}
+
+.footer__social-link:hover {
+  transform: scale(1.2);
+}
+
+.footer__copyright {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
 @media (max-width: 1300px){
     .project_item{
         width: 250px;
