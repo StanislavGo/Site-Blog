@@ -1,4 +1,4 @@
-const swiperOne = new Swiper('.project_swiper', {
+const swiperOne = new Swiper(".project_swiper", {
     loop: true,
 
     breakpoints: {
