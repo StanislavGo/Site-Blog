@@ -680,7 +680,7 @@ header {
 
 .footer {  
   background-color: #222222;
-  padding-bottom: 56px;
+  padding: 56px 0;
 }
 
 .footer__social {
@@ -695,6 +695,10 @@ header {
 
 .footer__social-link:hover {
   transform: scale(1.2);
+}
+
+.footer__social-link img {
+  width: 36px;
 }
 
 .footer__copyright {
