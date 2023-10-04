@@ -16,29 +16,29 @@
 
 @media screen and (max-width: 1490px) {
     .name-and-surname {
-        width: 84%;
-        left: 8%;
+        width: 84% !important;
+        left: 8% !important;
     }
     .name-and-surname h4,
     .name-and-surname h3 {
-        font-size: 95px;
+        font-size: 95px !important;
     }
 }
 
 @media screen and (max-width: 1280px) {
     .name-and-surname {
-        width: 96%;
-        left: 2%;
+        width: 96% !important;
+        left: 2% !important;
     }
     .name-and-surname h3 {
-        font-size: 90px;
+        font-size: 90px !important;
     }
     .name-and-surname h4 {
-        font-size: 90px;
+        font-size: 90px !important;
     }
     .who-I-am {
-        width: 96%;
-        left: 2%;
+        width: 96% !important;
+        left: 2% !important;
     }
     #element4 {
         left: 75%;
@@ -53,10 +53,10 @@
         margin-top: 40px;
     }
     .name-and-surname h3 {
-        font-size: 80px;
+        font-size: 80px !important;
     }
     .name-and-surname h4 {
-        font-size: 80px;
+        font-size: 80px !important;
     }
     .second-section__left-side h3,
     .second-section__rigth-side h3 {
@@ -73,10 +73,10 @@
 
 @media screen and (max-width: 1040px) {
     .name-and-surname h3 {
-        font-size: 65px;
+        font-size: 65px !important;
     }
     .name-and-surname h4 {
-        font-size: 65px;
+        font-size: 65px !important;
     }
     .second-section__rigth-side h3 {
         font-size: 17px;
@@ -110,13 +110,13 @@
 
 @media screen and (max-width: 865px) {
     .name-and-surname h3 {
-        font-size: 50px;
+        font-size: 50px !important;
     }
     .name-and-surname h4 {
-        font-size: 50px;
+        font-size: 50px !important;
     }
     .name-and-surname {
-        padding-top: 120px;
+        padding-top: 120px !important;
     }
     .second-section__left-side h3 {
         font-size: 18px;
@@ -140,10 +140,10 @@
 
 @media screen and (max-width: 722px) {
     .name-and-surname h3 {
-        font-size: 44px;
+        font-size: 44px !important;
     }
     .name-and-surname h4 {
-        font-size: 44px;
+        font-size: 44px !important;
     }
     .working-experience {
         font-size: 19px;
@@ -169,13 +169,13 @@
 
 @media screen and (max-width: 674px) {
     .name-and-surname h3 {
-        font-size: 40px;
+        font-size: 40px !important;
     }
     .name-and-surname h4 {
-        font-size: 40px;
+        font-size: 40px !important;
     }
     .name-and-surname {
-        padding-top: 25px;
+        padding-top: 25px !important;
     }
     .photo-with-man {
         left: calc(50% - 150px);
@@ -184,7 +184,7 @@
         margin-top: 198px;
     }
     .who-I-am {
-        top: 95px;
+        top: 95px !important;
     }
     .name-and-surname h3 {
         font-size: 25px;
@@ -193,15 +193,15 @@
         font-size: 25px;
     }
     .name-and-surname {
-        width: 80%;
-        left: 10%;
+        width: 80% !important;
+        left: 10% !important;
     }
     .second-section__rigth-side {
         text-align: right;
     }
     .who-I-am {
-        width: 90%;
-        left: 5%;
+        width: 90% !important;
+        left: 5% !important;
     }
     .second-section__rigth-side {
         max-width: 180px;
