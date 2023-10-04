@@ -3,7 +3,12 @@
 body {
     font-family: 'Inter', sans-serif;
     background: #222222;   
-    color: #fff;
+    color: #fff;    
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
     padding: 0 60px;
 }
 
@@ -12,17 +17,27 @@ body {
     font-size: 44px;
     font-weight: 700;
     text-align: center;
+    letter-spacing: 3px;
     color: #F26B50;
 }
 
+.img-wrapper {
+    max-width: 600px;
+    margin: 0 auto; 
+}
+
 .article__main-header-img {
-    display: flex;
-    margin: 0 auto;
+    display: flex;    
+    width: 100%;   
 }
 
 .article__title-h2 {
     font-size: 30px;
     font-weight: 600;
+    color: #F26B50;
+}
+
+.article__title-h3 {
     color: #F26B50;
 }
 
@@ -37,11 +52,23 @@ body {
 }
 
 .article__code code {
-    margin: 0;
-    max-width: 500px;
+    margin: 0;    
+}
+
+.article__list li {
+    margin-bottom: 5px;
 }
 
 .list-item-name {
     color: #F26B50;
     font-size: 18px;
+}
+
+.link-item {
+    color: #52d7ff;
+    transition: 0.3s;
+}
+
+.link-item:hover {
+    color: #F26B50;
 }
