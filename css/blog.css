@@ -36,6 +36,7 @@
 
 .blog__card-img-link {
   transition: 0.5s;
+  position: relative;
 }
 
 .blog__card-img-link:hover {
@@ -80,6 +81,7 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
+    /* height: 200px; */
     gap: 20px;    
 }
 
@@ -102,12 +104,12 @@
     transition: 0.3s;
 }
 
-.blog__card-read-more {    
+.blog__card-read-more {  
+    margin-top: auto;  
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #fff;
-    margin-top: auto;
+    color: #fff;    
 }
 
 .blog__card-read-more-text {
