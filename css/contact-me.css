@@ -1,0 +1,124 @@
+.contact-me {
+    font-family: 'Inter', sans-serif;
+    padding: 60px;
+    background: #393939;
+    position: relative;
+}
+
+.contact-me__container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #393939; 
+    position: relative;
+    z-index: 1;
+}
+
+.contact-me__title {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #fff;    
+}
+
+.contact-me__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 70px 30px 0;
+}
+
+.contact-me__form-input {
+    height: 60px;
+    padding: 0 30px;
+    color: #666;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form-textarea {
+    height: 150px;
+    padding-top: 10px;
+}
+
+.contact-me__button {
+    padding: 18px 30px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    background-color: #F26B50;
+    color: #FFF;
+    align-self: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 12px -2px rgba(0,0,0,0.5);
+    transition: all ease-out 0.5s;
+    }
+
+    .contact-me__button:hover {
+        background-color: #b64129;
+    }
+
+    .circle-big-1 {
+        position: absolute;
+        left: 0;
+        bottom: 5%;
+    }
+
+    .circle-big-2 {
+        position: absolute;
+        right: 0;
+        top: 25%;
+    }
+
+    .rhomb-1 {
+        position: absolute;
+        left: 5%;
+        top: 20%;
+    }
+
+    .rhomb-2 {
+        position: absolute; 
+        right: 15%;
+        bottom: 20%;
+    }
+
+    .circle-small-1 {
+        position: absolute;
+        left: 20%;
+        bottom: 25%;
+    }
+
+    .circle-small-2 {
+        position: absolute;
+        right: 15%;
+        top: 25%;
+    }
+
+    @media screen and (max-width: 640px) {
+        .contact-me__title {
+            font-size: 36px;
+        }
+    }
+
+    @media screen and (max-width: 420px) {
+        .contact-me__title {
+            font-size: 24px;
+        }
+        .contact-me__form {
+            margin-top: 30px;
+        }
+        .contact-me__form-input {
+            height: 50px;
+            padding: 0 10px;
+            font-size: 14px;
+        }
+        .form-textarea {
+            height: 100px;
+            padding-top: 10px;
+        }
+    }
