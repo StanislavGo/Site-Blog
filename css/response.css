@@ -66,6 +66,9 @@
     .second-section__rigth-side p {
         font-size: 19px;
     }
+    #element5 {
+        left: 90%;
+    }
 }
 
 @media screen and (max-width: 1040px) {
@@ -159,6 +162,9 @@
     .experience-block h3 {
         font-size: 60px;
     }
+    #element5 {
+        left: 80%;
+    }
 }
 
 @media screen and (max-width: 674px) {
@@ -231,6 +237,9 @@
     }
     .command-on, .skills-in {
         font-size: 15px;
+    }
+    #element5 {
+        left: 75%;
     }
 }
 
