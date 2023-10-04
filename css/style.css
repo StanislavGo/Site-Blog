@@ -166,6 +166,10 @@ header {
     position: absolute;
     background-repeat: no-repeat;
     background-size: contain;
+
+    transition: .6s;
+    transform: translate(0px, -20%);
+    opacity: 0;
 }
 
 .name-and-surname h3 {
@@ -187,6 +191,23 @@ header {
     padding-top: 65px;
     position: absolute;
     left: 12%;
+
+    transform: translate(0px, 120%);
+    transition: .8s;
+    opacity: 0;
+}
+
+.name-and-surname.active {
+    display: flex;
+    width: 74%;
+    justify-content: space-between;
+    padding-top: 65px;
+    position: absolute;
+    left: 12%;
+
+    transition: .8s;
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 .who-I-am {
@@ -197,6 +218,24 @@ header {
     bottom: 125px;
     left: 5%;
     justify-content: space-between;
+
+    transform: translate(0px, 120%);
+    transition: .8s;
+    opacity: 0;
+}
+
+.who-I-am.active {
+    display: flex;
+    width: 90%;
+    position: absolute;
+    min-height: 142px;
+    bottom: 125px;
+    left: 5%;
+    justify-content: space-between;
+
+    transition: .8s;
+    transform: translate(0px, 0px);
+    opacity: 1;
 }
 
 .second-section__left-side {
@@ -680,7 +719,7 @@ header {
 
 .footer {  
   background-color: #222222;
-  padding-bottom: 56px;
+  padding: 56px 0;
 }
 
 .footer__social {
@@ -695,6 +734,10 @@ header {
 
 .footer__social-link:hover {
   transform: scale(1.2);
+}
+
+.footer__social-link img {
+  width: 36px;
 }
 
 .footer__copyright {
