@@ -431,9 +431,6 @@ header {
     left: 95%;
 }
 
-
-
-
 /*      Section progect         */
 
 .project{
@@ -452,7 +449,6 @@ header {
 
 .content{
     display: flex;
-    /* justify-content: space-between; */
     gap: 64px;
 }
 
@@ -497,7 +493,6 @@ header {
     font-weight: 700;
     bottom: 0;
 }
-
 
 .view_btn-img{
     transform:  translate(0, 100%);
@@ -548,7 +543,6 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* align-items: center; */
     gap: 40px;
     padding-bottom: 20px;
 }
@@ -594,6 +588,89 @@ header {
     border: solid 2px #FBFBFB;
     background: #FBFBFB;
     color: #000;
+}
+
+/*              Section clien                */
+
+.clien{
+    background: #393939;
+    padding: 100px 159px 100px;
+    overflow: hidden;
+}
+
+.clien_title{
+    color: #F26B50;
+    /* text-align: center; */
+    font-family: Sansation;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.clien_text{
+    padding-bottom: 100px;
+    padding-top: 80px;
+    margin: 0 auto;
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.swiper{
+    width: 1250px;
+}
+
+.card-text{
+    border-radius: 10px;
+    background: #222;
+    max-width: 340px;
+    max-height: 300px;
+    padding: 30px 57px 61px 57px;
+    text-align: center;
+    align-items: center;
+}
+
+.title{
+    margin-top: 38px;
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Sansation;
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.text{
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 61px;
+}
+
+.client-slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    max-width: 340px;
+    padding-left: 60px;
+} 
+
+
+.card-item{
+    width: 340px;
+}
+
+.slide-conteiner{
+    width: 1300px;
+    padding: 40px;
 }
 
 /* =================================
@@ -658,6 +735,21 @@ header {
     .view_all_item-text{
         font-size: 16px;
     }
+    .card{
+        padding-left: 100px;
+    } 
+}
+
+@media (max-width: 1280px){
+    .card{
+        padding-left: 90px;
+    } 
+}
+
+@media (max-width: 1250px){
+    .card{
+        padding-left: 80px;
+    } 
 }
 
 @media (max-width: 1160px){
@@ -665,7 +757,39 @@ header {
         width: 1000px;
         margin: 0 auto;
     }
+    .card{
+        padding-left: 50px;
+    } 
+    .swiper{
+        width: 800px;
+    }
+}
 
+@media (max-width: 1120px){
+    .card{
+        padding-left: 30px;
+    } 
+    .swiper{
+        width: 760px;
+    }
+}
+
+@media (max-width: 1080px){
+    .card{
+        padding-left: 10px;
+    } 
+    .swiper{
+        width: 700px;
+    }
+}
+@media (max-width: 1040px){
+    .card{
+        padding-left: 5px;
+        max-width: 340px;
+    } 
+    .swiper{
+        width: 346px;
+    }
 }
 
 @media (max-width: 1000px){
@@ -709,9 +833,6 @@ header {
 }
 
 @media (max-width: 730px){
-    /* .container{
-        width: 560px;
-    } */
     .project{
         padding-left: 40px;
         padding-right: 40px;
@@ -721,7 +842,50 @@ header {
         justify-content: center;
         margin-left: 100px;
     }
+}
 
+@media (max-width: 680px){
+    .card-item{
+        width: 300px;
+    }
+    .card{
+        max-width: 300px;
+    }
+    .swiper{
+        width: 305px;
+    }
+
+}
+
+@media (max-width: 640px){
+    .clien_title{
+        font-size: 36px;
+    }
+    .clien_text{
+        font-size: 14px;
+    }
+    .card-item{
+        width: 250px;
+    }
+    .card{
+        max-width: 250px;
+        padding-left: 0;
+    }
+    .swiper{
+        width: 250px;
+    }
+    .title{
+        font-size: 14px;
+    }
+    .text{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 590px){
+    .clien{
+        padding: 100px 50px 100px;
+    }
 }
 
 @media (max-width: 530px){
@@ -802,41 +966,12 @@ header {
     }
 }
 
-/*
-@media (max-width: 830px){
-    .view_all_content{
-        margin-left: 100px;
-    }
-    .close_view_all{
-        margin-left: 190px;
+
+@media (max-width: 370px){
+    .clien{
+        padding: 80px 30px 80px;
     }
 }
-
-@media (max-width: 750px){
-    .content{
-        margin-left: 60px;
-    }
-    .view_all_content{
-        margin-left: 60px;
-    }
-    .close_view_all{
-        margin-left: 120px;
-    }
-}
-
-@media (max-width: 630px){
-    .content{
-        margin-left: 20px;
-    }
-    .view_all_content{
-        margin-left: 20px;
-    }
-    .close_view_all{
-        margin-left: 4px;
-    }
-} 
-*/
-
 
 
 
