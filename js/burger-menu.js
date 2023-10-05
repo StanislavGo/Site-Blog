@@ -2,6 +2,7 @@
 // FUNCTION FOR OPEN BURGER MODAL WINDOW
 function openBurgerMenu() {
     $(".burger-menu").toggleClass('active');
+    $(".burger-modal-window .nav_block").toggleClass("active");
 
     if ($(".burger-menu").hasClass('active')) {
         $(".burger-modal-window").css({ "right": "0px" });
@@ -21,6 +22,7 @@ function closeOverlayForBurger() {
     $(".overlay-when-burger-is-open").css({ "display": "none" });
 
     $(".burger-menu").removeClass("active");
+    $(".nav_block").removeClass("active");
 }
 
 //Function for open View all
