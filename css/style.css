@@ -712,6 +712,76 @@ header {
     padding: 40px;
 }
 
+/*          Section quction          */
+
+.quction{
+    padding: 120px 205px 160px;
+    background: #222;
+}
+
+.quction_title{
+    color: #F26B50;
+    font-family: Sansation;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 120px;
+    text-align: center;
+    align-items: center;
+}
+
+.accordion{
+   
+}
+
+.accordion-item{
+    margin-bottom: 50px;
+}
+
+.accordion_title{
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #FFF;
+    font-family: Sansation;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+}
+
+.accordion_title::after{
+    content: '';
+    background-image: url(../img/plus.svg);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 0;
+}
+
+.accordion_title.accordion_title-active::after{
+    transform: rotate(45deg);
+}
+
+.accordion_text{
+    opacity: 0;
+    max-height: 0;
+    padding:  0 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: max-height 0.3s, opacity 0.3s;
+}
+
+.accordion_text.accordion_text-visible{
+    opacity: 1;
+    visibility: visible;
+    color: #FBFBFB;
+    font-family: Inter;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* =================================
     FOOTER
    =================================
@@ -863,6 +933,24 @@ header {
         padding-left: 10px;
         padding-right: 10px;
     }
+    .quction_title{
+        color: #F26B50;
+        font-family: Sansation;
+        font-size: 50px;
+        font-weight: 700;
+        padding-bottom: 120px;
+        text-align: center;
+        align-items: center;
+    }
+    .accordion_title{
+        font-size: 14px;
+    }
+    .accordion_title::after{
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 @media (max-width: 785px){
@@ -884,6 +972,12 @@ header {
         flex-direction: column;
         justify-content: center;
         margin-left: 100px;
+    }
+}
+
+@media (max-width: 690px){
+    .quction{
+        padding: 70px 105px 70px;
     }
 }
 
@@ -949,6 +1043,9 @@ header {
     .prort_title{
         font-size: 20px;
     }
+    .quction{
+        padding: 40px 75px 40px;
+    }
 }
 
 @media (max-width: 455px){
@@ -972,6 +1069,24 @@ header {
     .project{
         padding-left: 0px;
         padding-right: 0px;
+    }
+    .quction{
+        padding: 10px 55px 10px;
+    }
+    .quction_title{
+        color: #F26B50;
+        font-family: Sansation;
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .accordion_title{
+        font-size: 12px;
+    }
+    .accordion_title::after{
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 }
 
