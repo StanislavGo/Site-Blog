@@ -1,7 +1,7 @@
 
 // ROTATE ELEMENTS IN 1 SECTION
 function rotateAllElements() {
-    $(".element").each(function() {
+    $(".element, .rhomb-1, .rhomb-2").each(function() {
         rotate($(this));
     });
 }

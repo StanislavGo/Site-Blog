@@ -69,6 +69,10 @@ header {
     align-items: center;
     margin: auto;
     padding-top: 10px;
+
+    transition: .6s;
+    transform: translate(0px, -50%);
+    opacity: 0.4;
 }
 
 .red-cube {
@@ -401,6 +405,19 @@ header {
     flex-direction: column;
     display: flex;
     margin-top: 40px;
+    transform: translate(30%, 0px);
+    opacity: 0.3;
+    transition: 1s;
+}
+
+.burger-modal-window .nav_block.active {
+    display: flex;
+    min-width: 325px;
+    justify-content: space-between;
+
+    transform: translate(0px, 0px);
+    opacity: 1;
+    transition: 1s;
 }
 
 .burger-modal-window .nav_block a {
@@ -414,6 +431,26 @@ header {
     SECTION2 WITH PHOTO
    ================================
 */
+
+.element {
+    opacity: 0.1;
+    transition: .8s;
+}
+
+.element.active {
+    opacity: 1;
+    transition: .8s;
+}
+
+.hidden {
+    opacity: 0;
+    transition: 1s;
+}
+
+.show {
+    opacity: 1;
+    transition: .8s;
+}
 
 #element1 {
     background: url(../img/2section-with-name/elements/element1.svg);

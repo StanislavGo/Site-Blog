@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact-me.css">
     <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/response.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
@@ -44,27 +45,27 @@
     <main>
         <section class="section-with-name">
             <div class="bg-element">
-                <div class="elements">
+                <div class="elements hidden">
                     <div class="element" id="element1"></div>
                     <div class="element" id="element2"></div>
                     <div class="element" id="element3"></div>
                     <div class="element" id="element4"></div>
                     <div class="element" id="element5"></div>
                 </div>
-                <div class="name-and-surname">
-                    <h3>Sergey</h3>
-                    <h4>Rogovy</h4>
+                <div class="name-and-surname hidden">
+                    <h3 class="hidden">Sergey</h3>
+                    <h4 class="hidden">Rogovy</h4>
                 </div>
-                <div class="photo-with-man"></div>
-                <div class="who-I-am">
+                <div class="photo-with-man hidden"></div>
+                <div class="who-I-am hidden">
                     <div class="second-section__left-side">
-                        <h3>. Freelancer</h3>
-                        <p>Get in touch for freelance projects.</p>
+                        <h3 class="hidden">. Freelancer</h3>
+                        <p class="hidden">Get in touch for freelance projects.</p>
                     </div>
 
                     <div class="second-section__rigth-side">
-                        <h3>. UI Designer</h3>
-                        <p>Vienna based art director and interface designer, with a strong focus on design systems and
+                        <h3 class="hidden">. UI Designer</h3>
+                        <p class="hidden">Vienna based art director and interface designer, with a strong focus on design systems and
                             component libraries.</p>
                     </div>
                 </div>
@@ -72,15 +73,15 @@
         </section>
 
         <section class="skills-block">
-            <div class="skills__block-all-skills">
-                <div class="working-experience">
-                    <h2>. Working Experience</h2>
-                    <p>. Cooperated closely with the marketing team to develop concepts and mockups on 50+ projects.</p>
+            <div class="skills__block-all-skills hidden">
+                <div class="working-experience hidden">
+                    <h2 class="hidden">. Working Experience</h2>
+                    <p class="hidden">. Cooperated closely with the marketing team to develop concepts and mockups on 50+ projects.</p>
                 </div>
 
-                <div class="command-on">
-                    <h2>. Command On</h2>
-                    <ul>
+                <div class="command-on hidden">
+                    <h2 class="hidden">. Command On</h2>
+                    <ul class="hidden">
                         <li>. HTML</li>
                         <li>. CSS</li>
                         <li>. Enterprise CMS</li>
@@ -89,9 +90,9 @@
                     </ul>
                 </div>
 
-                <div class="skills-in">
+                <div class="skills-in hidden">
                     <h2>. Skills In</h2>
-                    <ul>
+                    <ul class="hidden">
                         <li>. Web Designing</li>
                         <li>. App Designing</li>
                         <li>. Dashboard Designing</li>
@@ -101,14 +102,14 @@
                 </div>
             </div>
 
-            <div class="experience-block">
+            <div class="experience-block hidden">
                 <h3>+6</h3>
                 <p>Years Of Experience</p>
             </div>
         </section>
 
         <section class="project">
-            <div class="container">
+            <div class="container hidden">
                 <div class="content">
                     <div class="project_content">
                         <h2 class="project_title">
@@ -246,14 +247,14 @@
         </section>
 
         <section class="clien">
-            <h2 class="clien_title">
+            <h2 class="clien_title hidden">
                 Few Words From My Clients
             </h2>
-            <p class="clien_text">
+            <p class="clien_text hidden">
                 I always feel honoured when I get good remarks from my clients. Look what they have to say about me.
             </p>
 
-            <div class="client-slider">
+            <div class="client-slider hidden">
                 <div class="slide-conteiner swiper mySwiper">
                     <div class="card-wrapper swiper-wrapper">
                         <div class="card swiper-slide">
@@ -360,14 +361,33 @@
                     </div>
                 </div>
             </div>
+        </section>
+        
+        <section class="contact-me">          
 
+            <div class="contact-me__container hidden">              
+                <h2 class="contact-me__title hidden">Contact Me And Let’s Talk About Your Project</h2>
+                <form class="contact-me__form hidden" action="https://formspree.io/f/xeqbpvqw" method="POST">                    
+                    <input class="contact-me__form-input" type="text" name="name" placeholder="Your name" required>
+                    <input class="contact-me__form-input" type="email" name="email" placeholder="Your email Address" required>                    
+                    <textarea class="contact-me__form-input form-textarea" name="description" placeholder="Your project description" required></textarea>
+                    <button class="contact-me__button" type="submit">Send me</button>
+                </form>
+            </div>
+
+            <img class="circle-big-1 hidden" src="img/contact-me/circle-big-1.svg">
+            <img class="circle-big-2 hidden" src="img/contact-me/circle-big-2.svg">
+            <img class="rhomb-1 hidden" src="img/contact-me/rhomb-1.svg">
+            <img class="rhomb-2 hidden" src="img/contact-me/rhomb-2.svg">
+            <img class="circle-small-1 hidden" src="img/contact-me/circle-small-1.svg">
+            <img class="circle-small-2 hidden" src="img/contact-me/circle-small-2.svg">
         </section>
 
         <section class="blog">
-            <div class="blog__container">
-                <h2 class="blog__title">My Blog</h2>
+            <div class="blog__container hidden">
+                <h2 class="blog__title hidden">My Blog</h2>
                 <ul class="blog__list">
-                    <li class="blog__card">
+                    <li class="blog__card hidden">
                         <a href="blog/css-filter-effects.html" class="blog__card-img-link">
                             <img src="img/blog/css-filter-effects.jpg" alt="CSS Filter Effects" class="blog__card-img">
                             <div class="blog__card-img-overlay">
@@ -393,7 +413,7 @@
                         </div>
                     </li>
 
-                    <li class="blog__card">
+                    <li class="blog__card hidden">
                         <a href="blog/flexbox-froggy.html" class="blog__card-img-link">
                             <img src="img/blog/flexboxfroggy.jpg" alt="Flexbox Froggy" class="blog__card-img">
                             <div class="blog__card-img-overlay">
@@ -419,7 +439,7 @@
                         </div>
                     </li>
 
-                    <li class="blog__card">
+                    <li class="blog__card hidden">
                         <a href="blog/resources-for-git.html" class="blog__card-img-link">
                             <img src="img/blog/resources-for-git.jpg" alt="Resources for Git" class="blog__card-img">
                             <div class="blog__card-img-overlay">
@@ -446,7 +466,7 @@
                     </li>
                 </ul>
                 <a class="blog__link-view-all" href="#">
-                    <div class="blog__view-all">
+                    <div class="blog__view-all hidden">
                         <p class="blog__view-all-text">View all Posts</p>
                         <img class="blog__view-all-img" src="img/blog/view-all.svg" alt="view-all">
                     </div>
@@ -456,21 +476,21 @@
     </main>
 
     <footer class="footer">
-        <div class="footer__social">
-            <a href="https://www.facebook.com/" class="footer__social-link">
+        <div class="footer__social hidden">
+            <a href="https://www.facebook.com/" class="footer__social-link hidden">
                 <img src="img/icons/facebook.svg" alt="facebook">
             </a>
-            <a href="https://twitter.com/" class="footer__social-link">
+            <a href="https://twitter.com/" class="footer__social-link hidden">
                 <img src="img/icons/twitter.svg" alt="twitter">
             </a>
-            <a href="https://www.linkedin.com/" class="footer__social-link">
+            <a href="https://www.linkedin.com/" class="footer__social-link hidden">
                 <img src="img/icons/linkedin.svg" alt="linkedin">
             </a>
-            <a href="https://www.instagram.com/" class="footer__social-link">
+            <a href="https://www.instagram.com/" class="footer__social-link hidden">
                 <img src="img/icons/instagram.svg" alt="instagram">
             </a>
         </div>
-        <p class="footer__copyright">Copyright © 2023 Limited</p>
+        <p class="footer__copyright hidden">Copyright © 2023 Limited</p>
     </footer>
 
     <script src="js/accordion.js"></script>
