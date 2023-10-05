@@ -326,10 +326,14 @@
         <section class="contact-me">          
             <div class="contact-me__container">              
                 <h2 class="contact-me__title">Contact Me And Let’s Talk About Your Project</h2>
-                <form class="contact-me__form" action="#">                    
-                    <input class="contact-me__form-input" type="text" name="name" placeholder="Your name" required>
-                    <input class="contact-me__form-input" type="email" name="email" placeholder="Your email Address" required>                    
-                    <textarea class="contact-me__form-input form-textarea" name="description" rows="5" placeholder="Your project description" required></textarea>
+                
+                <form class="contact-me__form" action="https://formspree.io/f/xeqbpvqw" method="POST">                    
+                    <input class="contact-me__form-input" type="text" name="name"  placeholder="Your name" required>
+
+                    <input class="contact-me__form-input" type="email" name="email" placeholder="Your email Address" required>  
+
+                    <textarea class="contact-me__form-input form-textarea" name="description" placeholder="Your project description" required></textarea>
+
                     <button class="contact-me__button" type="submit">Send me</button>
                 </form>
             </div>
