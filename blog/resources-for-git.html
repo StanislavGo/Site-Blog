@@ -3,10 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/response.css">
   <link rel="stylesheet" href="blogs.css">
   <title>Resources GIT</title>
 </head>
 <body>
+
+    <div class="overlay-when-burger-is-open" onclick="closeOverlayForBurger()"></div>
+      <div class="burger-modal-window">
+          <nav class="nav_block">
+              <a href="../index.html" onclick="closeBurgerMenu()">home</a>
+              <a href="../index.html#skills" onclick="closeBurgerMenu()">skills</a>
+              <a href="../index.html#my-projects" onclick="closeBurgerMenu()">my projects</a>
+              <a href="../index.html#my-clients" onclick="closeBurgerMenu()">my clients</a>
+              <a href="../index.html#faq" onclick="closeBurgerMenu()">FAQ</a>
+              <a href="../index.html#contact-me" onclick="closeBurgerMenu()">contact me</a>
+              <a href="../index.html#my-blog" onclick="closeBurgerMenu()">my blog</a>
+          </nav>
+      </div>
+
+      <header>
+          <div class="header">
+              <div class="left-side">
+                  <div class="red-cube">S.</div>
+                  <nav class="nav_block">
+                      <a href="../index.html">home</a>
+                      <a href="../index.html#skills">skills</a>
+                      <a href="../index.html#my-projects">my projects</a>
+                      <a href="../index.html#my-clients">my clients</a>
+                      <a href="../index.html#faq">FAQ</a>
+                      <a href="../index.html#contact-me">contact me</a>
+                      <a href="../index.html#my-blog">my blog</a>
+                  </nav>
+              </div>
+              <div class="burger_block">
+                  <div class="burger-menu" onclick="openBurgerMenu()"></div>
+              </div>
+          </div>
+      </header>
+
     <div class="container">
         <h1 class="article__main-header">Ресурси для вивчення GIT</h1> 
         <div class="img-wrapper">
@@ -77,5 +113,9 @@
       </div>
       <p class="footer__copyright">Copyright © 2023 Limited</p>
     </footer>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/burger-menu.js"></script>
+    <script src="../js/scroll-animation.js"></script>
 </body>
 </html>

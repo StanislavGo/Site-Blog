@@ -18,6 +18,7 @@ body {
     font-weight: 700;
     text-align: center;
     letter-spacing: 3px;
+    margin: 40px 0;
     color: #F26B50;
 }
 
@@ -35,15 +36,18 @@ body {
 .article__title-h2 {
     font-size: 30px;
     font-weight: 600;
+    margin: 30px 0;
     color: #F26B50;
 }
 
 .article__title-h3 {
+    margin: 25px 0;
     color: #F26B50;
 }
 
 .article__text {
     font-size: 18px;
+    margin: 20px 0;
 }
 
 .article__text-italic {
@@ -57,7 +61,10 @@ body {
 }
 
 .article__list li {
-    margin-bottom: 5px;
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: normal;
+    list-style-type: disc;
 }
 
 .list-item-name {
@@ -66,6 +73,7 @@ body {
 }
 
 .link-item {
+    text-decoration: underline;
     color: #52d7ff;
     transition: 0.3s;
 }
