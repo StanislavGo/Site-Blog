@@ -2,7 +2,7 @@
     RESPONSIVE FOR HEADER
 */
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1090px) {
     .nav_block {
         display: none;
     }
@@ -253,5 +253,9 @@
     }
     .burger-modal-window .nav_block a {
         margin: 30px auto;
+    }
+    .burger-modal-window .nav_block.active {
+        margin-top: 40px;
+        margin-left: 2%;
     }
 }
