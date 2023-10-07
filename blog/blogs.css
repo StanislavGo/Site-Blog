@@ -87,3 +87,40 @@ body {
         font-size: 15px;
     }
 }
+
+/* =================================
+    FOOTER
+   =================================
+*/
+
+.footer {  
+  background-color: #222222;
+  padding: 56px 0;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer__social-link {
+  transition: 0.3s;
+}
+
+.footer__social-link:hover {
+  transform: scale(1.2);
+}
+
+.footer__social-link img {
+  width: 36px;
+}
+
+.footer__copyright {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 25px;
+}

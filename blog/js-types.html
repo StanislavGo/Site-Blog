@@ -7,29 +7,47 @@
     <title>Типи даних JavaScript</title>
 </head>
 <body>
-  <div class="container">
-      <h1 class="article__main-header">Типи даних JavaScript та структури даних</h1>
-      <div class="img-wrapper">
-          <img class="article__main-header-img" src="../img/blog/javascript.png" alt="javascript">
+    <div class="container">
+        <h1 class="article__main-header">Типи даних JavaScript та структури даних</h1>
+        <div class="img-wrapper">
+            <img class="article__main-header-img" src="../img/blog/javascript.png" alt="javascript">
+        </div>
+        <h2 class="article__title-h2">Динамическая типизация</h2>
+        <p class="article__text">JavaScript є слабо типізованою або динамічною мовою. Це означає, що вам не потрібно визначати тип змінної заздалегідь. Тип автоматично визначиться під час виконання програми. Також це означає, що ви можете використовувати одну змінну для зберігання різних типів даних</p>
+
+        <h2 class="article__title-h2">Типи даних</h2>
+        <h3 class="article__title-h3">Стандарт ECMAScript визначає 8 типів:</h3>
+        <ul class="article__list">
+            <li><span class="list-item-name">Undefined </span> (Невизначений тип): typeof instance === "undefined".</li>
+            <li><span class="list-item-name">Boolean </span> (Булев, Логічний тип) : typeof instance === "boolean"</li>
+            <li><span class="list-item-name">Number </span> (Число) : typeof instance === "number"</li>
+            <li><span class="list-item-name">String </span> (Рядок) : typeof instance === "string"</li>
+            <li><span class="list-item-name">BigInt </span> typeof instance === "bigint"</li>
+            <li><span class="list-item-name">Symbol </span> (в ECMAScript 6) : typeof instance === "symbol"</li>
+            <li><span class="list-item-name">Null </span> (Null тип) : typeof instance === "object". Спеціальний примітив, що використовується не тільки для даних але і як покажчик на фінальну точку в Ланцюжку Прототипов</li>
+            <li><span class="list-item-name">Object </span> (Объект) : typeof instance === "object". Простая структура, используемая не только для хранения данных, но и для создания других структур, где любая структура создаётся с использованием ключевого слова new: new Object, new Array, new Map (en-US), new Set, new WeakMap, new WeakSet, new Date и множество других структур</li>          
+        </ul>
+
+        <p class="article__text">І тут нам необхідно зробити застереження щодо використання оператора типуз визначення типу структур,т.к. всі структури повертатимуть "object" при його використанні, оскільки призначення typeof - перевірка типу даних, але не структур. Якщо перевірити тип структури все ж таки необхідно, то в цьому випадку бажано використовувати оператор встанови, оскільки саме він відповідає на питання про те, який конструктор був використаний для створення структури.</p>
+        <p class="article__text">Варто відзначити два особливі випадки роботи оператора typeof: повернення "object" для значення null і "function" для функцій: перше прийнято вважати помилкою мови, збереженої для зворотної сумісності, друге є умовністю, зручною для перевірки на належність значення категорії функцій, де функція - це особливий, що "викликається", об'єкт.</p>
+    </div>  
+    
+    <footer class="footer">
+      <div class="footer__social">
+          <a href="https://www.facebook.com/" class="footer__social-link">
+              <img src="../img/icons/facebook.svg" alt="facebook">
+          </a>
+          <a href="https://twitter.com/" class="footer__social-link">
+              <img src="../img/icons/twitter.svg" alt="twitter">
+          </a>
+          <a href="https://www.linkedin.com/" class="footer__social-link">
+              <img src="../img/icons/linkedin.svg" alt="linkedin">
+          </a>
+          <a href="https://www.instagram.com/" class="footer__social-link">
+              <img src="../img/icons/instagram.svg" alt="instagram">
+          </a>
       </div>
-      <h2 class="article__title-h2">Динамическая типизация</h2>
-      <p class="article__text">JavaScript є слабо типізованою або динамічною мовою. Це означає, що вам не потрібно визначати тип змінної заздалегідь. Тип автоматично визначиться під час виконання програми. Також це означає, що ви можете використовувати одну змінну для зберігання різних типів даних</p>
-
-      <h2 class="article__title-h2">Типи даних</h2>
-      <h3 class="article__title-h3">Стандарт ECMAScript визначає 8 типів:</h3>
-      <ul class="article__list">
-          <li><span class="list-item-name">Undefined </span> (Невизначений тип): typeof instance === "undefined".</li>
-          <li><span class="list-item-name">Boolean </span> (Булев, Логічний тип) : typeof instance === "boolean"</li>
-          <li><span class="list-item-name">Number </span> (Число) : typeof instance === "number"</li>
-          <li><span class="list-item-name">String </span> (Рядок) : typeof instance === "string"</li>
-          <li><span class="list-item-name">BigInt </span> typeof instance === "bigint"</li>
-          <li><span class="list-item-name">Symbol </span> (в ECMAScript 6) : typeof instance === "symbol"</li>
-          <li><span class="list-item-name">Null </span> (Null тип) : typeof instance === "object". Спеціальний примітив, що використовується не тільки для даних але і як покажчик на фінальну точку в Ланцюжку Прототипов</li>
-          <li><span class="list-item-name">Object </span> (Объект) : typeof instance === "object". Простая структура, используемая не только для хранения данных, но и для создания других структур, где любая структура создаётся с использованием ключевого слова new: new Object, new Array, new Map (en-US), new Set, new WeakMap, new WeakSet, new Date и множество других структур</li>          
-      </ul>
-
-      <p class="article__text">І тут нам необхідно зробити застереження щодо використання оператора типуз визначення типу структур,т.к. всі структури повертатимуть "object" при його використанні, оскільки призначення typeof - перевірка типу даних, але не структур. Якщо перевірити тип структури все ж таки необхідно, то в цьому випадку бажано використовувати оператор встанови, оскільки саме він відповідає на питання про те, який конструктор був використаний для створення структури.</p>
-      <p class="article__text">Варто відзначити два особливі випадки роботи оператора typeof: повернення "object" для значення null і "function" для функцій: перше прийнято вважати помилкою мови, збереженої для зворотної сумісності, друге є умовністю, зручною для перевірки на належність значення категорії функцій, де функція - це особливий, що "викликається", об'єкт.</p>
-  </div>   
+      <p class="footer__copyright">Copyright © 2023 Limited</p>
+    </footer>
 </body>
 </html>
