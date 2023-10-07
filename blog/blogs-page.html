@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/blog.css">
+    <link rel="stylesheet" href="blog-page.css">
+    <title>Blog</title>
+</head>
+<body>
+    <section class="blog">
+        <div class="blog__container">
+            <h2 class="blog__title">My Blog</h2>
+
+            <div class="blog__categoty-list">
+                <a href="#" class="blog__categoty-item" data-filter="all">
+                    <div class="blog__categoty-container categoty-active">
+                        <img class="blog__categoty-img" src="../img/blog/all.png" alt="All">
+                    </div>
+                </a>
+                <a href="#" class="blog__categoty-item" data-filter="html-css">
+                    <div class="blog__categoty-container">
+                        <img class="blog__categoty-img" src="../img/blog/html-css.jpg" alt="html & css">
+                    </div>
+                </a>
+                <a href="#" class="blog__categoty-item" data-filter="js">
+                    <div class="blog__categoty-container">
+                        <img class="blog__categoty-img" src="../img/blog/javascript.png" alt="javascript">
+                    </div>
+                </a>
+                <a href="#" class="blog__categoty-item" data-filter="git">
+                    <div class="blog__categoty-container">
+                        <img class="blog__categoty-img" src="../img/blog/git.jpg" alt="git">
+                    </div>
+                </a>
+                <a href="#" class="blog__categoty-item" data-filter="php">
+                    <div class="blog__categoty-container">
+                        <img class="blog__categoty-img" src="../img/blog/php.png" alt="php">
+                    </div>
+                </a>
+                <a href="#" class="blog__categoty-item" data-filter="mysql">
+                    <div class="blog__categoty-container">
+                        <img class="blog__categoty-img" src="../img/blog/mysql.jpg" alt="mysql">
+                    </div>
+                </a>
+            </div>
+
+            <ul class="blog__list">
+                <li class="blog__card" data-category="html-css">
+                    <a href="../blog/css-filter-effects.html" class="blog__card-img-link">
+                        <img src="../img/blog/css-filter-effects.jpg" alt="CSS Filter Effects" class="blog__card-img">
+                        <div class="blog__card-img-overlay">
+                            <p class="overlay-text">Read more</p>
+                        </div>
+                    </a>
+                    <div class="blog__card-content">
+                        <div class="blog__card-block-date-read">
+                            <p>05 October 2023</p>
+                            <p>5 min read</p>
+                        </div>
+                        <a href="../blog/css-filter-effects.html" class="blog__card-title-link">
+                            <h3 class="blog__card-title">CSS Filter Effects</h3>
+                        </a>
+                        <div class="blog__card-read-more">
+                            <a href="../blog/css-filter-effects.html" class="blog__card-title-link">
+                                <p class="blog__card-read-more-text">Read more</p>
+                            </a>
+                            <a href="../blog/css-filter-effects.html" class="blog__card-read-more-link">
+                              <svg width="42" height="15" viewBox="0 0 42 15" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M41.7071 8.20711C42.0976 7.81658 42.0976 7.18342 41.7071 6.79289L35.3431 0.428932C34.9526 0.0384079 34.3195 0.0384079 33.9289 0.428932C33.5384 0.819456 33.5384 1.45262 33.9289 1.84315L39.5858 7.5L33.9289 13.1569C33.5384 13.5474 33.5384 14.1805 33.9289 14.5711C34.3195 14.9616 34.9526 14.9616 35.3431 14.5711L41.7071 8.20711ZM0 8.5H41V6.5H0V8.5Z"/>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="blog__card" data-category="html-css">
+                    <a href="../blog/flexbox-froggy.html" class="blog__card-img-link">
+                        <img src="../img/blog/flexboxfroggy.jpg" alt="Flexbox Froggy" class="blog__card-img">
+                        <div class="blog__card-img-overlay">
+                            <p class="overlay-text">Read more</p>
+                        </div>
+                    </a>
+                    <div class="blog__card-content">
+                        <div class="blog__card-block-date-read">
+                            <p>03 October 2023</p>
+                            <p>1 min read</p>
+                        </div>
+                        <a href="../blog/flexbox-froggy.html" class="blog__card-title-link">
+                            <h3 class="blog__card-title">Flexbox Froggy</h3>
+                        </a>
+                        <div class="blog__card-read-more">
+                            <a href="../blog/flexbox-froggy.html" class="blog__card-title-link">
+                                <p class="blog__card-read-more-text">Read more</p>
+                            </a>
+                            <a href="../blog/flexbox-froggy.html" class="blog__card-read-more-link">
+                              <svg width="42" height="15" viewBox="0 0 42 15" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M41.7071 8.20711C42.0976 7.81658 42.0976 7.18342 41.7071 6.79289L35.3431 0.428932C34.9526 0.0384079 34.3195 0.0384079 33.9289 0.428932C33.5384 0.819456 33.5384 1.45262 33.9289 1.84315L39.5858 7.5L33.9289 13.1569C33.5384 13.5474 33.5384 14.1805 33.9289 14.5711C34.3195 14.9616 34.9526 14.9616 35.3431 14.5711L41.7071 8.20711ZM0 8.5H41V6.5H0V8.5Z"/>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="blog__card" data-category="git">
+                    <a href="../blog/resources-for-git.html" class="blog__card-img-link">
+                        <img src="../img/blog/resources-for-git.jpg" alt="Resources for Git" class="blog__card-img">
+                        <div class="blog__card-img-overlay">
+                            <p class="overlay-text">Read more</p>
+                        </div>
+                    </a>
+                    <div class="blog__card-content">
+                        <div class="blog__card-block-date-read">
+                            <p>02 October 2023</p>
+                            <p>7 min read</p>
+                        </div>
+                        <a href="../blog/resources-for-git.html" class="blog__card-title-link">
+                            <h3 class="blog__card-title">Ресурси для вивчення GIT</h3>
+                        </a>
+                        <div class="blog__card-read-more">
+                            <a href="../blog/resources-for-git.html" class="blog__card-title-link">
+                                <p class="blog__card-read-more-text">Read more</p>
+                            </a>
+                            <a href="../blog/resources-for-git.html" class="blog__card-read-more-link">
+                              <svg width="42" height="15" viewBox="0 0 42 15" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M41.7071 8.20711C42.0976 7.81658 42.0976 7.18342 41.7071 6.79289L35.3431 0.428932C34.9526 0.0384079 34.3195 0.0384079 33.9289 0.428932C33.5384 0.819456 33.5384 1.45262 33.9289 1.84315L39.5858 7.5L33.9289 13.1569C33.5384 13.5474 33.5384 14.1805 33.9289 14.5711C34.3195 14.9616 34.9526 14.9616 35.3431 14.5711L41.7071 8.20711ZM0 8.5H41V6.5H0V8.5Z"/>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="blog__card" data-category="js">
+                    <a href="../blog/js-types.html" class="blog__card-img-link">
+                        <img src="../img/blog/javascript.png" alt="CSS Filter Effects" class="blog__card-img">
+                        <div class="blog__card-img-overlay">
+                            <p class="overlay-text">Read more</p>
+                        </div>
+                    </a>
+                    <div class="blog__card-content">
+                        <div class="blog__card-block-date-read">
+                            <p>05 October 2023</p>
+                            <p>5 min read</p>
+                        </div>
+                        <a href="../blog/js-types.html" class="blog__card-title-link">
+                            <h3 class="blog__card-title">Типи даних JavaScript</h3>
+                        </a>
+                        <div class="blog__card-read-more">
+                            <a href="../blog/css-filter-effects.html" class="blog__card-title-link">
+                                <p class="blog__card-read-more-text">Read more</p>
+                            </a>
+                            <a href="../blog/js-types.html" class="blog__card-read-more-link">
+                              <svg width="42" height="15" viewBox="0 0 42 15" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M41.7071 8.20711C42.0976 7.81658 42.0976 7.18342 41.7071 6.79289L35.3431 0.428932C34.9526 0.0384079 34.3195 0.0384079 33.9289 0.428932C33.5384 0.819456 33.5384 1.45262 33.9289 1.84315L39.5858 7.5L33.9289 13.1569C33.5384 13.5474 33.5384 14.1805 33.9289 14.5711C34.3195 14.9616 34.9526 14.9616 35.3431 14.5711L41.7071 8.20711ZM0 8.5H41V6.5H0V8.5Z"/>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="blog__card" data-category="php">
+                    <a href="../blog/php-developer.html" class="blog__card-img-link">
+                        <img src="../img/blog/php.png" alt="Flexbox Froggy" class="blog__card-img">
+                        <div class="blog__card-img-overlay">
+                            <p class="overlay-text">Read more</p>
+                        </div>
+                    </a>
+                    <div class="blog__card-content">
+                        <div class="blog__card-block-date-read">
+                            <p>03 October 2023</p>
+                            <p>1 min read</p>
+                        </div>
+                        <a href="../blog/php-developer.html" class="blog__card-title-link">
+                            <h3 class="blog__card-title">Як стати PHP-розробником</h3>
+                        </a>
+                        <div class="blog__card-read-more">
+                            <a href="../blog/php-developer.html" class="blog__card-title-link">
+                                <p class="blog__card-read-more-text">Read more</p>
+                            </a>
+                            <a href="../blog/php-developer.html" class="blog__card-read-more-link">
+                              <svg width="42" height="15" viewBox="0 0 42 15" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M41.7071 8.20711C42.0976 7.81658 42.0976 7.18342 41.7071 6.79289L35.3431 0.428932C34.9526 0.0384079 34.3195 0.0384079 33.9289 0.428932C33.5384 0.819456 33.5384 1.45262 33.9289 1.84315L39.5858 7.5L33.9289 13.1569C33.5384 13.5474 33.5384 14.1805 33.9289 14.5711C34.3195 14.9616 34.9526 14.9616 35.3431 14.5711L41.7071 8.20711ZM0 8.5H41V6.5H0V8.5Z"/>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="blog__card" data-category="mysql">
+                    <a href="../blog/resources-for-sql.html" class="blog__card-img-link">
+                        <img src="../img/blog/mysql.jpg" alt="Resources for Git" class="blog__card-img">
+                        <div class="blog__card-img-overlay">
+                            <p class="overlay-text">Read more</p>
+                        </div>
+                    </a>
+                    <div class="blog__card-content">
+                        <div class="blog__card-block-date-read">
+                            <p>02 October 2023</p>
+                            <p>7 min read</p>
+                        </div>
+                        <a href="../blog/resources-for-sql.html" class="blog__card-title-link">
+                            <h3 class="blog__card-title">Практика в SQL</h3>
+                        </a>
+                        <div class="blog__card-read-more">
+                            <a href="../blog/resources-for-sql.html" class="blog__card-title-link">
+                                <p class="blog__card-read-more-text">Read more</p>
+                            </a>
+                            <a href="../blog/resources-for-sql.html" class="blog__card-read-more-link">
+                              <svg width="42" height="15" viewBox="0 0 42 15" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M41.7071 8.20711C42.0976 7.81658 42.0976 7.18342 41.7071 6.79289L35.3431 0.428932C34.9526 0.0384079 34.3195 0.0384079 33.9289 0.428932C33.5384 0.819456 33.5384 1.45262 33.9289 1.84315L39.5858 7.5L33.9289 13.1569C33.5384 13.5474 33.5384 14.1805 33.9289 14.5711C34.3195 14.9616 34.9526 14.9616 35.3431 14.5711L41.7071 8.20711ZM0 8.5H41V6.5H0V8.5Z"/>
+                            </svg>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/filter-category.js"></script>
+</body>
+</html>
