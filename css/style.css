@@ -49,6 +49,63 @@ button{
    ============================
 */
 
+.homeForCheck {
+    width: 25px; 
+    height: 25px; 
+    position: absolute; 
+    top: 18%;
+    /* background: red; */
+}
+
+.experienceCheck {
+    width: 25px;
+    height: 25px; 
+    /* background: rebeccapurple;  */
+    position: absolute; 
+    top: 128%;
+}
+
+.projectsForCheck {
+    width: 25px;
+    height: 25px; 
+    /* background: peru;  */
+    position: absolute; 
+    margin-bottom: 2%;
+}
+
+.clientsForCheck {
+    width: 25px;
+    height: 5px; 
+    /* background: peru;  */
+    position: absolute; 
+    margin-top: 3.8%;
+}
+
+.FAQForCheck {
+    width: 25px;
+    height: 5px; 
+    /* background: peru;  */
+    position: absolute; 
+    margin-top: 2.3%;
+}
+
+.contactForCheck {
+    width: 25px;
+    height: 5px; 
+    /* background: peru;  */
+    position: absolute; 
+    top: 66.8%;
+    z-index: 999;
+}
+
+.blogForCheck {
+    width: 25px;
+    height: 5px; 
+    /* background: peru;  */
+    position: absolute; 
+    margin-top: 30%;
+    z-index: 999;
+}
 
 header {
     background: #222222;
@@ -107,6 +164,10 @@ header {
 }
 
 .nav_block a:hover {
+    color: #F26B50;
+}
+
+.nav_block a.choose {
     color: #F26B50;
 }
 
@@ -769,9 +830,9 @@ header {
     align-items: center;
 }
 
-.accordion{
+/* .accordion{
    
-}
+} */
 
 .accordion-item{
     margin-bottom: 50px;

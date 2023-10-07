@@ -33,13 +33,13 @@
             <div class="left-side">
                 <div class="red-cube">S.</div>
                 <nav class="nav_block">
-                    <a href="#home">home</a>
-                    <a href="#skills">skills</a>
-                    <a href="#my-projects">my projects</a>
-                    <a href="#my-clients">my clients</a>
-                    <a href="#faq">FAQ</a>
-                    <a href="#contact-me">contact me</a>
-                    <a href="#my-blog">my blog</a>
+                    <a id="home1" class="choose" href="#home">home</a>
+                    <a id="skills1" class="reject" href="#skills">skills</a>
+                    <a id="projectsForCheck" href="#my-projects">my projects</a>
+                    <a id="clientsForCheck" href="#my-clients">my clients</a>
+                    <a id="FAQForCheck" href="#faq">FAQ</a>
+                    <a id="contactForCheck" href="#contact-me">contact me</a>
+                    <a id="blogForCheck" href="#my-blog">my blog</a>
                 </nav>
             </div>
             <div class="burger_block">
@@ -63,6 +63,9 @@
                     <h3 class="hidden">Sergey</h3>
                     <h4 class="hidden">Rogovy</h4>
                 </div>
+
+                <div class="homeForCheck hidden"></div>
+
                 <div class="photo-with-man hidden"></div>
                 <div class="who-I-am hidden">
                     <div class="second-section__left-side">
@@ -81,7 +84,7 @@
 
         <section id="skills" class="skills-block">
             <div class="skills__block-all-skills hidden">
-                <div class="working-experience hidden">
+                <div id="work-experience" class="working-experience hidden">
                     <h2 class="hidden">. Working Experience</h2>
                     <p class="hidden">. Cooperated closely with the marketing team to develop concepts and mockups on 50+ projects.</p>
                 </div>
@@ -108,11 +111,13 @@
                     </ul>
                 </div>
             </div>
+            <div class="experienceCheck hidden"></div>
 
-            <div class="experience-block hidden">
+            <div id="experience" class="experience-block hidden show">
                 <h3>+6</h3>
                 <p>Years Of Experience</p>
             </div>
+
         </section>
 
         <section id="my-projects" class="project">
@@ -135,6 +140,7 @@
                         <div class="view_btn" onclick="openViewAll()">
                             <p class="viewt_btn-text">View All</p>
                             <img class="view_btn-img" src="img/left.svg">
+                            <diiv class="projectsForCheck hidden"></diiv>
                         </div>
                     </div>
                     <div class="project_slider">
@@ -268,6 +274,7 @@
                             <div class="card-item">
                                 <div class="card-text">
                                     <img class="card-img" src="img/client1.svg" alt="">
+                                    <div class="clientsForCheck hidden"></div>
                                     <h3 class="title">
                                         Michael Johns
                                     </h3>
@@ -347,6 +354,7 @@
                 </div>
 
                 <div class="accordion-item hidden">
+                    <div class="FAQForCheck hidden"></div>
                     <button class="accordion_title">
                         What are your working hours?
                     </button>
@@ -370,7 +378,8 @@
             </div>
         </section>
         
-        <section id="contact-me" class="contact-me">          
+        <section id="contact-me" class="contact-me">      
+            <div class="contactForCheck hidden"></div>
             <div class="contact-me__container hidden">              
                 <h2 class="contact-me__title hidden">Contact Me And Let’s Talk About Your Project</h2>
                 <form class="contact-me__form hidden" action="https://formspree.io/f/xeqbpvqw" method="POST">                    
@@ -390,6 +399,7 @@
         </section>
 
         <section id="my-blog" class="blog">
+            <div class="blogForCheck hidden"></div>
             <div class="blog__container hidden">
                 <h2 class="blog__title hidden">My Blog</h2>
                 <ul class="blog__list">
