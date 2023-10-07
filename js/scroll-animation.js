@@ -40,3 +40,10 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
+
+// Scroll animation
+$("a[href*='#']").click(function() {
+    let _href = $(this).attr("href");
+    $("html, body").animate({ scrollTop: $(_href).offset().top });
+    return false
+})
