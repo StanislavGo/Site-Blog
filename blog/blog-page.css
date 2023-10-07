@@ -21,7 +21,7 @@ ul {
 }
 
 .blog__categoty-list {
-  /* height: 70px; */
+  height: 70px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -63,3 +63,8 @@ ul {
   transition: all 0.3s ease-out;
 }
 
+@media (max-width: 549px) {
+  .blog__categoty-list {
+    height: 140px;
+  }
+}

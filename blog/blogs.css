@@ -22,13 +22,14 @@ body {
 }
 
 .img-wrapper {
-    max-width: 600px;
+    max-width: 500px;
     margin: 0 auto; 
 }
 
 .article__main-header-img {
     display: flex;    
-    width: 100%;   
+    width: 100%;
+    background-color: #fff;
 }
 
 .article__title-h2 {
@@ -74,7 +75,7 @@ body {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
     .article__main-header {
         font-size: 30px;
         letter-spacing: 1px;
