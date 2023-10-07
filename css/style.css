@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500&family=Inter:wght@400;500;600;700&display=swap');
-
 /* 
 font-family: 'DM Sans', sans-serif;
 font-family: 'Inter', sans-serif;
 */
-
+/* 
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+} */
 
 * {
     padding: 0;
@@ -87,7 +91,7 @@ header {
 
 .nav_block {
     display: flex;
-    min-width: 325px;
+    min-width: 440px;
     justify-content: space-between;
 }
 
@@ -109,7 +113,7 @@ header {
 }
 
 .nav_block a:hover {
-    color: #d3d2d2;
+    color: #F26B50;
 }
 
 .burger_block {
@@ -393,7 +397,7 @@ header {
 .burger-modal-window {
     background: #F26B50;
     width: 330px;
-    height: 400px;
+    height: 430px;
     position: fixed;
     right: -100%;
     top: 84px;
@@ -422,8 +426,12 @@ header {
 
 .burger-modal-window .nav_block a {
     width: fit-content;
-    margin: 25px auto;
+    margin: 20px auto;
     font-size: 21px;
+}
+
+.burger-modal-window .nav_block a:hover {
+    color: #bdbdbd;
 }
 
 

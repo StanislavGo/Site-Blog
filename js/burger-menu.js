@@ -36,3 +36,7 @@ function closeViewAll() {
     $(".view_btn-img.active").removeClass('active');
     $(".view_all").css({ "display": "none" });
 }
+
+function closeBurgerMenu() {
+    closeOverlayForBurger();
+}
