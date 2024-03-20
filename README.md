@@ -1,4 +1,4 @@
-# https://stanislavgo.github.io/Site-Blog/
+# https://stanislavgo.github.io/blog-website/
 
 Technologies used:
 
